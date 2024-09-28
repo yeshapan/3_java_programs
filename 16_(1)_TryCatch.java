@@ -1,4 +1,4 @@
-
+//program to demonstrate simple try catch (exception handling)
 public class TryCatch {
     public static void main(String args[]){
         int deno=0;
