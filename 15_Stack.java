@@ -1,4 +1,4 @@
-
+//program to demonstrate stack operations in Java
 import java.util.Stack;
 
 class StackOperations{
