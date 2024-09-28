@@ -1,3 +1,4 @@
+//Program to demonstrate order in which constructors are called during inheritace (when object of derived class is created)
 class Parent {
     Parent() {
         System.out.println("Parent class constructor called");
