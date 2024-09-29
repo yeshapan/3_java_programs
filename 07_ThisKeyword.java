@@ -1,3 +1,14 @@
+//Simple Java program to demonstrate the use of "this" keyword
+
+/*
+this keyword can also be used to:
+01) Invoke current class constructor
+02) Invoke current class method
+03) Return the current class object
+04) Pass an argument in the method call
+05) Pass an argument in the constructor call
+*/
+
 class Person {
     //data members
     String name;
