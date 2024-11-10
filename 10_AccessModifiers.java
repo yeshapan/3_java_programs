@@ -25,7 +25,18 @@ public class AccessModifiers {
         System.out.println(obj.protected_var); 
         System.out.println(obj.default_var);   
         // System.out.println(obj.privateVar); // Not accessible outside class
-
         obj.showVariables(); // Accessing all variables through a public method
     }
 }
+
+/*OUTPUT
+Outside the class:
+Public String
+Protected String 
+Default String
+Inside the class:
+Public String
+Protected String
+Default String
+Private String
+*/  
