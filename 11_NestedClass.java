@@ -1,25 +1,27 @@
-// Outer class
-class OuterClass {
-    private String outer_var = "Variable string in outer class hehe";
+class OuterClass{
+    //variable string in outer class
+    private String outer_str="String in outer class";
 
-    // Nested class
-    class InnerClass {
-        void print_statement() {
-            // Accessing outer class ka private variable
-            System.out.println("Accessing from inner class: " + outer_var);
+    //inner class
+    class InnerClass{
+        //accessing private member of outer class
+        void display_str(){
+            System.out.println("Accessing private data member of outer class from inner class:"+outer_str);
         }
     }
 
-    void display_InnerClass() {
-        // Creating an object of the nested inner class
-        InnerClass inner_object = new InnerClass();
-        inner_object.print_statement();
+    //function o display innerclass
+    void display_inner(){
+        //create object of nested inner class
+        InnerClass innerobj=new InnerClass();
+        innerobj.display_str();
     }
 }
-public class NestedClass {
-    public static void main(String[] args) {
-        // Creating an instance of the outer class
-        OuterClass outer_object = new OuterClass();
-        outer_object.display_InnerClass();
+
+public class MainDemo{
+    public static void main(String[] args){
+        //create object of outer class
+        OuterClass outerobj=new OuterClass();
+        outerobj.display_inner();
     }
 }
