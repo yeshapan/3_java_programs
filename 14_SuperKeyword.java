@@ -1,3 +1,4 @@
+//Simple Java program to demonstrate the use of super keyword
 //base class Books
 class Books{
     String quote="Books are uniquely portable magic";
