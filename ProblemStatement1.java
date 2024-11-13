@@ -18,19 +18,19 @@ class Addition implements calculator_operation{
 }
 
 class Subtaction implements calculator_operation{
-    double add(double num1, double num2){
+    double subtract(double num1, double num2){
         return num1-num2;
     }
 }
 
 class Multiplication implements calculator_operation{
-    double add(double num1, double num2){
+    double multiply(double num1, double num2){
         return num1*num2;
     }
 }
 
 class Division implements calculator_operation{
-    double add(double num1, double num2){
+    double divide(double num1, double num2){
         try{
             return num1/num2;
             }
