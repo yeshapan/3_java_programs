@@ -49,14 +49,14 @@ class Calculator{
 }
 
 //Thread class for calculator operation, write result into file
-Class CalculatorThread extends Thread{
+class CalculatorThread extends Thread{
     //objects of Calculator and interface calculator_operation
     private Calculator calc; //instance of Calculator class to provide synchronised method
     private calculator_operation opn;
     private double num1, num2;
     
     //parameterised constructor
-    CalculatorThread(Calculator calc, calculator_operation opn, num1, num2){
+    CalculatorThread(Calculator calc, calculator_operation opn, double num1, double num2){
         this.num1=num1;
         this.num2=num2;
         this.calc=calc;
